@@ -107,6 +107,14 @@ header{
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.05);
     object-fit: cover;
+    transition: 0.3s;
+    box-shadow: 0.3s;
+}
+
+.box:hover img{
+    width: 100%;
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .box p {
