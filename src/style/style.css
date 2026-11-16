@@ -51,6 +51,11 @@ header{
     font-size: 15px;
     margin: 0;
     letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.btn-hearder:hover p{
+    transform: scale(1.05);
 }
 
 .btn-hearder img{
@@ -58,6 +63,11 @@ header{
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
+    transition: 0.3s;
+}
+
+.btn-hearder:hover img {
+    transform: scale(1.15);
 }
 
 .btn-hearder:hover {
@@ -113,7 +123,7 @@ header{
 
 .box:hover img{
     width: 100%;
-    transform: scale(1.04);
+    transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
